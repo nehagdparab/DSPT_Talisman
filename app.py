@@ -12,9 +12,9 @@ def hello():
     return render_template('hello.html')
 
 def mongodb():
-    client = MongoClient(port=27017)
+    client = MongoClient('104.45.149.96',27017)
     db=client.usertable
-    data = db.userdata.find()
+    data = db.userdata.find_one()
     print(data)
     username = data['username']
     password = data['password']
