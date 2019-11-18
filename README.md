@@ -1,2 +1,2 @@
 # DSPT_AZ
-This is created for Azure devops pipeline
+This is created for Azure devops pipeline.
