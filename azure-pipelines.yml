@@ -37,7 +37,7 @@ steps:
     azureSubscription: 'Free Trial(0d119fa6-53bc-4568-8d4d-28e6aa7ad897)'
     appType: 'webAppContainer'
     WebAppName: 'dsptappmongo'
-    DockerNamespace: 'dsptnehareg'
+    DockerNamespace: 'dsptnehareg.azurecr.io'
     DockerRepository: 'dsptapp'
     DockerImageTag: '2'
 - task: AzureAppServiceManage@0
