@@ -25,7 +25,7 @@ steps:
     repository: 'dsptapp'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
-    tags: '2'
+    tags: 'latest'
 - task: AzureAppServiceManage@0
   inputs:
     azureSubscription: 'Free Trial(0d119fa6-53bc-4568-8d4d-28e6aa7ad897)'
@@ -39,7 +39,7 @@ steps:
     WebAppName: 'dsptappmongo'
     DockerNamespace: 'dsptnehareg.azurecr.io'
     DockerRepository: 'dsptapp'
-    DockerImageTag: '2'
+    DockerImageTag: 'latest'
 - task: AzureAppServiceManage@0
   inputs:
     azureSubscription: 'Free Trial(0d119fa6-53bc-4568-8d4d-28e6aa7ad897)'
