@@ -2,7 +2,7 @@ import pytest
 import requests
 
 
-url = 'http://localhost:5021' # The root url of the flask app
+url = 'https://dsptappmongo.azurewebsites.net:5000' # The root url of the flask app
 
 def test_index_page():
     r = requests.get(url+'/')
